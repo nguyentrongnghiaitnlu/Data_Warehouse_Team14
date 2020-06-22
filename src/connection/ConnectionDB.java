@@ -11,6 +11,7 @@ public class ConnectionDB {
 		String url = "jdbc:mysql://localhost:3306/" + db_Name;
 		String user = "root";
 		String password = "root";
+		String name = ")";
 		try {
 			if (con == null || con.isClosed()) {
 				Class.forName("com.mysql.jdbc.Driver");
